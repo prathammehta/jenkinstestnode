@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'WASSUP'
+                echo 'WASSUP'
             }
         }
     }
